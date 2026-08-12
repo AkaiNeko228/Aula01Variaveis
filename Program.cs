@@ -1,5 +1,7 @@
 ﻿using System.Diagnostics.Contracts;
 using System;
+ 
+ // commit, algo que ja sabia
 
 namespace Aula01Projeto
 {
