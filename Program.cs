@@ -11,8 +11,31 @@ namespace Aula01Projeto
          //concatenarPalavras();
          //CalcularMedia();
          //CalcularTabuada();
-            VerficarAulaEtec();
-
+         //VerficarAulaEtec();
+         Console.WriteLine("Digite um número para escolher o menu a baixo:");
+         Console.WriteLine("1 - Concatenar Palavras");
+         Console.WriteLine("2 - Calcular Média");
+         Console.WriteLine("3 - Calcular Tabuada");
+         Console.WriteLine("4 - Verificar Aula Etec");
+         int opcao = int.Parse(Console.ReadLine());
+      
+         switch (opcao){
+            case 1:
+                concatenarPalavras();
+                break;
+            case 2:
+                CalcularMedia();
+                break;
+            case 3:
+                CalcularTabuada();
+                break;
+            case 4:
+                VerficarAulaEtec();
+                break;
+            default:
+                Console.WriteLine("Opção inválida");
+                break;
+         }
         } 
 
         public static void VerficarAulaEtec(){
